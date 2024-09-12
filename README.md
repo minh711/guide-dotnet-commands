@@ -30,6 +30,12 @@ dotnet ef database update
 
 ## Code generation
 
+Install the tool
+
+```sh
+dotnet tool install -g dotnet-aspnet-codegenerator
+```
+
 Add package for code generation
 
 ```sh
@@ -40,4 +46,18 @@ Usage
 
 ```sh
 dotnet-aspnet-codegenerator -p . controller -name [ControllerName] -api -m [Model] -dc [Database Context class] -outDir [Output folder] -namespace [Namespace]
+```
+
+## Run
+
+Run project
+
+```sh
+dotnet run
+```
+
+Check for errors (build)
+
+```sh
+dotnet build
 ```
