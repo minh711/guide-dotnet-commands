@@ -13,7 +13,7 @@ donet tool install --global dotnet-ef
 Connection string
 
 ```txt
-uid=sa;pwd=123456;encrypt=true;trustServerCertificate=true;
+Server={server};Uid={uid};Pwd={pwd};Database={database};Encrypt=true;TrustServerCertificate=True;
 ```
 
 Add migartion
