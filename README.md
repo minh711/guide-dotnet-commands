@@ -1,6 +1,6 @@
 # Commands guide for .NET
 
----
+## Install packages
 
 Install Entity Framework (global)
 
@@ -8,7 +8,7 @@ Install Entity Framework (global)
 donet tool install --global dotnet-ef
 ```
 
----
+## Database
 
 Connection string
 
@@ -16,7 +16,19 @@ Connection string
 uid=sa;pwd=123456;encrypt=true;trustServerCertificate=true;
 ```
 
----
+Add migartion
+
+```sh
+dotnet ef migrations add [Migartion name] -o [Output direction]
+```
+
+Update database
+
+```sh
+dotnet ef database update
+```
+
+## Code generation
 
 Add package for code generation
 
