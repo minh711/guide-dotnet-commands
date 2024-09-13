@@ -5,7 +5,7 @@
 Web API project
 
 ```sh
-dotnet new webapi -n [Project name]
+dotnet new webapi -n [Project name] -controllers
 ```
 
 ## Install packages
