@@ -1,5 +1,13 @@
 # Commands guide for .NET
 
+## Create project
+
+Web API project
+
+```sh
+dotnet new webapi -n [Project name]
+```
+
 ## Install packages
 
 Install Entity Framework (global)
