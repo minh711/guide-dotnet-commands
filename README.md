@@ -5,7 +5,7 @@ This guide provides a step-by-step reference for creating, managing, and running
 ---
 
 ## Table of Contents
-1. [Create Project](#create-project)
+1. [Create Project](#1-create-project)
    - [Create a New Solution File](#create-a-new-solution-file)
    - [Add Projects to the Solution](#add-projects-to-the-solution)
      - [Class Library Project](#class-library-project)
